@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Create Ticket</title>
+</head>
+<body>
+  <h1>Create Ticket</h1>
+
+  <form method="post">
+    <label>Title</label><br>
+    <input type="text" name="title" required><br><br>
+
+    <label>Description</label><br>
+    <textarea name="description" rows="6" required></textarea><br><br>
+
+    <label>Priority</label><br>
+    <select name="priority">
+      <option>Low</option>
+      <option selected>Medium</option>
+      <option>High</option>
+    </select><br><br>
+
+    <button type="submit">Save Ticket</button>
+  </form>
+
+  <p><a href="/">Back to Home</a></p>
+</body>
+</html>
+
